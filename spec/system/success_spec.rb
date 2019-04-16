@@ -1,4 +1,4 @@
-RSpec.describe "take over the world", type: :system, js: true do
+RSpec.describe "take over the world" do
   before do
     driven_by(:headless_chrome)
   end
